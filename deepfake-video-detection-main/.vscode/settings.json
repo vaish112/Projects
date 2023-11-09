@@ -1,0 +1,29 @@
+{
+  "restoreTerminals.terminals": [
+    {
+      "splitTerminals": [
+        {
+          "name": "git",
+          "commands": ["cd .", "git status"]
+        }
+      ]
+    },
+    {
+      "splitTerminals": [
+        {
+          "name": "Client",
+          "commands": ["cd frontend"]
+        }
+      ]
+    }
+    // {
+    //   "splitTerminals": [
+    //     {
+    //       "name": "Server",
+    //       "commands": ["cd backend"]
+    //     }
+    //   ]
+    // }
+  ],
+  "jupyter.jupyterServerType": "local"
+}
